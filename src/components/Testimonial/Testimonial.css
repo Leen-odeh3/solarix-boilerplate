@@ -1,0 +1,59 @@
+#Testimonial .title{
+text-align: center;
+margin-top: -50px;
+margin-bottom: 15px;
+}
+
+#Testimonial  .clients__container{
+  margin-top: 50px;
+}
+#Testimonial .slick-prev,
+#Testimonial .slick-next{
+  display: none !important;
+}
+
+#Testimonial .slick-track{
+  display: flex !important;
+  gap:20px;
+}
+#Testimonial .slick-slide{
+  height: inherit !important;
+  padding: 20px;
+  border:solid 2px var(--color-primary);
+  border-radius: var(--radius-3);
+  display: flex;
+  flex-direction: column;
+  background: var(--color-ui-secondary);
+  transition: var(--transition);
+}
+
+#Testimonial .slick-slide:hover{
+  transform: scale(0.98);
+}
+
+#Testimonial .slick-slide>div{
+  flex:1;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+#Testimonial .slick-slide .stars__container{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  color:var(--color-primary);
+  margin-bottom: 10px;
+}
+
+#Testimonial .slick-slide > div .content{
+flex:1;
+}
+#Testimonial .slick-slide .user__row{
+  display: flex;
+  margin-top: 20px;
+  gap:20px;
+  padding: 10px 20px;
+  background: var(--color-primary);
+  border-radius: var(--radius-3);
+}
